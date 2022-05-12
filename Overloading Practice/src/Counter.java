@@ -37,4 +37,9 @@ public class Counter {
             return;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Counter: " + value;
+    }
 }
